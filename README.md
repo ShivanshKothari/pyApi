@@ -19,13 +19,13 @@ This project provides a RESTful API for performing data analysis tasks using lib
 1. **Clone the repository:**
 
    ```bash
-   git clone [https://github.com/](https://github.com/)<your-username>/<repo-name>.git
+   git clone [https://github.com/](https://github.com/)ShivanshKothari/pyApi.git
    ```
 
 2. **Install dependencies:**
 
    ```bash
-   cd <repo-name>
+   cd pyApi
    npm install
    ```
 
@@ -47,22 +47,6 @@ GET /data
 
 This endpoint performs data analysis and returns the results in JSON format. The specific analysis logic depends on your implementation.
 
-### Usage Example
-
-**Frontend (example using Axios):**
-
-```javascript
-async function fetchData() {
-  try {
-    const response = await axios.get('http://localhost:3000/data'); // Adjust URL if needed
-    const data = response.data;
-    // Use the received data (e.g., predictions, analysis results) in your frontend logic
-  } catch (error) {
-    console.error(error);
-    // Handle errors gracefully
-  }
-}
-```
 
 ### Contributing
 
