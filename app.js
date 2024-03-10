@@ -38,4 +38,4 @@ app.use((err, req, res, next) => {
   res.send(err);
 });
 
-export default app;
+app.listen(process.env.PORT || 3000);
