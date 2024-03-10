@@ -19,7 +19,7 @@ This project provides a RESTful API for performing data analysis tasks using lib
 1. **Clone the repository:**
 
    ```bash
-   git clone [https://github.com/](https://github.com/)ShivanshKothari/pyApi.git
+   git clone https://github.com/ShivanshKothari/pyApi.git
    ```
 
 2. **Install dependencies:**
